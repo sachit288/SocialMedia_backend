@@ -1,7 +1,7 @@
 # Problem Statement
 
 - Build APIs for a social media platform in NodeJS
-- The API should support features like getting a user profile, follow a user, upload a post, delete a post, like a post, unlike a liked post, and comment on a post
+- The API supports features like getting a user profile, follow a user, upload a post, delete a post, like a post, unlike a liked post, and comment on a post
 - Design the database schema and implement in MongoDB
 
 ### **API Endpoints**
@@ -10,10 +10,6 @@
     - INPUT: Email, Password
     - RETURN: JWT token
     
-    <aside>
-    ➡️ **NOTE:** Use dummy email & password for authentication. No need to create endpoint for registering new user.
-    
-    </aside>
     
 - POST /api/follow/{id} authenticated user would follow user with {id}
 - POST /api/unfollow/{id} authenticated user would unfollow a user with {id}
